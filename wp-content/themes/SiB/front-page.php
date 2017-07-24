@@ -20,7 +20,7 @@ get_header();?>
     </div>
 
 </div>
-<!--/Flytta till index vid senare tillfälle -->
+<!--/Flytta till index vid senare tillfälle! -->
 <div class="cards">
     <div class="card"></div>
     <div class="card"></div>
@@ -40,6 +40,8 @@ get_header();?>
     </div>
     <?php endwhile;
     wp_reset_postdata(); ?>
+
+
 
 </div>
 <?php get_footer(); ?>
