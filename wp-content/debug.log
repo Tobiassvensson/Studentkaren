@@ -1,0 +1,37 @@
+[24-Jul-2017 08:56:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/page.php on line 23
+[24-Jul-2017 10:16:46 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Applications/MAMP/htdocs/wordpress/wp-includes/functions.php on line 3962
+[24-Jul-2017 10:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyseventeen_get_svg() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 31
+[24-Jul-2017 10:17:10 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in /Applications/MAMP/htdocs/wordpress/wp-includes/functions.php on line 3962
+[24-Jul-2017 10:17:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyseventeen_get_svg() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php:31
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 31
+[24-Jul-2017 10:18:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 37
+[24-Jul-2017 10:20:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 23
+[24-Jul-2017 10:20:23 UTC] PHP Parse error:  syntax error, unexpected '<' in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 23
+[24-Jul-2017 10:20:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 119
+[24-Jul-2017 10:21:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 119
+[24-Jul-2017 10:22:31 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 108
+[24-Jul-2017 10:22:48 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 108
+[24-Jul-2017 10:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentyseventeen_posted_on() in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php:34
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(74): include()
+#1 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/single.php on line 34
+[24-Jul-2017 10:37:51 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/inc/custom-header.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/functions.php on line 549
+[24-Jul-2017 10:37:51 UTC] PHP Fatal error:  require(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/inc/custom-header.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.1/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/functions.php on line 549
+[24-Jul-2017 10:37:55 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/inc/custom-header.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/functions.php on line 549
+[24-Jul-2017 10:37:55 UTC] PHP Fatal error:  require(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/inc/custom-header.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.1/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/functions.php on line 549
+[24-Jul-2017 10:37:56 UTC] PHP Warning:  require(/Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/inc/custom-header.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/functions.php on line 549
+[24-Jul-2017 10:37:56 UTC] PHP Fatal error:  require(): Failed opening required '/Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/inc/custom-header.php' (include_path='.:/Applications/MAMP/bin/php/php7.1.1/lib/php') in /Applications/MAMP/htdocs/wordpress/wp-content/themes/SiB/functions.php on line 549

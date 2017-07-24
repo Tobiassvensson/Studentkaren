@@ -1,0 +1,194 @@
+/*
+Theme Name: SiB
+*/
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #999
+}
+
+a:link,
+a:visited {
+    color: #246;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+div.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid red;
+}
+
+
+/* NAvigation Menu */
+
+
+/*
+.site-header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header ul:before,
+site-header ul:after {
+    content: "";
+    display: table;
+}
+
+.site-header ul:after {
+    clear: both;
+}
+
+.site-header ul {
+    *zoom: 1;
+}
+*/
+
+.site-header ul li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Site Header Menu */
+
+.site-header nav ul li {
+    margin-right: 10px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: inline-block;
+    padding: 10px 3px;
+    border-bottom: none;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    transition: 0.6s;
+}
+
+.site-header nav ul li a:hover {
+    color: #00A275;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+}
+
+.menu li a {
+    margin: 10px 10px 0px 10px;
+}
+
+.menu ul {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    float: left;
+    margin: 10px 0px 0px 15px;
+    max-width: 220px;
+    max-height: 53px;
+    justify-content: center;
+    position: absolute;
+}
+
+.site-header {
+    width: 100vw;
+    height: 70px;
+    z-index: 999;
+    margin: 0 auto;
+    position: absolute;
+    position: fixed;
+    background: -webkit-linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0));
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(33, 33, 33, 0.8), rgba(33, 33, 33, 0));
+    /* Standard syntax (must be last) */
+}
+
+
+/* Backgrundsbild */
+
+.footer-callout-image>img {
+    /*
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+*/
+    /*    min-width: 100%;*/
+    /*    min-height: 100%;*/
+    display: block;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+}
+
+
+/* Text på Backgrundsbild */
+
+.footer-callout-text {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+/*    height: 100vh;*/
+    position: absolute;
+}
+
+.footer-callout-text h1 {
+    font-family: 'arial', sans-serif;
+    font-size: 4em;
+    color: White;
+}
+
+.footer-callout-text p {
+    font-size: 16px;
+    color: White;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: center;
+    font-family: 'arial', sans-serif;
+}
+
+.info {
+    background-color: red;
+}
+
+.cards {
+    width: 100%;
+    height: auto;
+    background-color: #E6E6E6;
+    border: 1px solid green;
+    justify-content: center;
+}
+
+.card {
+    height: 500px;
+    width: 420px;
+    background-color: white;
+    border: 1px solid red;
+    display: inline-block;
+    margin: 1vw;
+}
